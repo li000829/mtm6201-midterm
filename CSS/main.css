@@ -438,7 +438,7 @@
  @media (max-width: 576px){
     #app{
         height: 100%;
-        background-image: unset;
+        background: unset;
         text-align: center;
      }
     .app-txt {
