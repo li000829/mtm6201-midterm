@@ -207,7 +207,7 @@
  }
 
  #download{
-    background: url('/images/footer-banner.png') no-repeat center top;
+    background-image: url('/images/footer-banner.png') no-repeat center top;
     padding: 120px 0;
  }
  .dow-txt{
@@ -275,7 +275,7 @@
 
  @media (max-width: 768px) {
     #app {
-    background-image: unset;
+    background: unset;
     text-align: center;
     }
     .app-txt {
