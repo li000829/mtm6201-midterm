@@ -441,27 +441,34 @@
     color: goldenrod;
  }
 
-
-.foot_con {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    align-items: center;
-  }
-
 .big-pic {
     width: 100%;
     height: auto;
   }
 
-.foot_con button {
-    padding: 10px 40px;
-    background-color: goldenrod;
-    color: #fff;
-    border: unset;
-    border-radius: 20px;
-    font-size: 20px;
+  .menu-buttons button {
+    margin-top: 55px;
+    margin-left: 20px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    border-radius: 30px;
+    padding: 15px 50px;
+    font-size: 1em;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s; /* Smooth transition for background color change */
   }
+
+.menu-buttons button:hover,
+.menu-buttons button:active,
+.menu-buttons button:focus {
+    background-color: goldenrod; /* Change to orange on hover, focus, or active */
+    outline: none;
+    border: none;
+}
+
+
   
   
   
