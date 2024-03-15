@@ -21,7 +21,7 @@
  ul, li {
     list-style: none;
  }
- ul li a:not(:hover), .applestore:not(:hover), .googleplay:not(:hover){
+ ul li a:not(:hover) {
     transition: .3s;
  }
  .container{
@@ -63,7 +63,7 @@
     font-weight: 600;
  }
  ul li:first-child a{
-    color: black;
+    color: #f64708;
  }
  ul li a:hover{
     color: #9c0303;
@@ -74,6 +74,7 @@
     background: url('/images/header-banner.png') no-repeat center top;
     padding-bottom: 150px;
  }
+
  .app-content{
     padding-top: 70px;
  }
@@ -91,9 +92,9 @@
  .store-buttons button {
     margin-top: 55px;
     margin-left: 20px;
-    background-color: transparent;
+    background-color: goldenrod;
     color: white;
-    border: 2px solid white;
+    border: 2px solid goldenrod;
     border-radius: 30px;
     padding: 15px 50px;
     font-size: 1em;
@@ -105,7 +106,7 @@
 .store-buttons button:hover,
 .store-buttons button:active,
 .store-buttons button:focus {
-    background-color: goldenrod; /* Change to orange on hover, focus, or active */
+    background-color: #f64708; /* Change to orange on hover, focus, or active */
     outline: none;
     border: none;
 }
@@ -122,6 +123,55 @@
     background-color: rgba(0, 0, 0, 0);
     margin: 110px auto 0;
  }
+
+ .food-content {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around; /* Adjust this as needed for spacing */
+}
+
+.food-items {
+   flex: 1 1 30%;
+   margin: 20px;
+   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+   text-align: center;
+   padding: 15px;
+}
+
+.food-items img {
+   width: 100%;
+   height: auto;
+   margin-bottom: 15px;
+}
+
+.food-items button {
+   margin-top: 10px;
+   padding: 10px 20px;
+   background-color: goldenrod;
+   color: white;
+   border: none;
+   cursor: pointer;
+   border-radius: 5px;
+}
+
+.food-items button:hover,
+.food-items button:active,
+.food-items button:focus {
+    background-color: #f64708; /* Change to orange on hover, focus, or active */
+    outline: none;
+    border: none;
+}
+
+.our-menu {
+   margin-top: 20px;
+   font-size: 36px;
+}
+.food-items h3 {
+   font-size: 24px;
+}
+.food-items p {
+   font-size: 16px;
+}
 
  .acc-title{
     font-size: 44px;
@@ -145,7 +195,7 @@
     text-align: left;
  }
  .acc-h3{
-    color: goldenrod;
+    color: #f64708;
  }
  .acc-h2{
     font-size: 40px;
@@ -190,7 +240,7 @@
     margin: 10px;
  }
   ul li .fa {
-    color: goldenrod;
+    color: #f64708;
     margin-top: 10px;
     transition: all 0.5s ease;
   }
@@ -224,9 +274,18 @@
  }
 
  @media (max-width: 768px) {
+    #app {
+    background-image: unset;
+    text-align: center;
+    }
+    .app-txt {
+        color:#000;
+    }
+
     .container {
        width: 540px;
     }
+
     .nav-firstpage{
        display: block;
        height: 60px;
@@ -243,7 +302,6 @@
     #firstpage{
        display: none;
     }
-
     input + label {
        position: absolute;
        margin-top:  -40px;
@@ -363,12 +421,30 @@
     hr{
        display: none;
     }
+    .food-items {
+      flex-basis: 100%;
+    }
+    .product_title {
+      font-size: 28px;
+    }
+    .food-items h3 {
+      font-size: 20px;
+    }
+    .food-items p {
+      font-size: 14px;
+    }
  }
 
  @media (max-width: 576px){
     #app{
-       height: 100%;
+        height: 100%;
+        background-image: unset;
+        text-align: center;
+     }
+    .app-txt {
+        color:#000;
     }
+    
     .container{
        width: 100%;
        padding-right: 15px;
@@ -376,6 +452,7 @@
        margin-right: auto;
        margin-left: auto;
     }
+
     .googleplay, .applestore {
        height: 40px;
        width: 130px;
@@ -434,43 +511,7 @@
     }
  }
 
- /* foodpage style */
-
- .product_title {
+ .our-menu {
+    color:goldenrod;
     margin: 50px;
-    color: goldenrod;
  }
-
-.big-pic {
-    width: 100%;
-    height: auto;
-  }
-
-  .menu-buttons button {
-    margin-top: 55px;
-    margin-left: 20px;
-    background-color: transparent;
-    color: white;
-    border: 2px solid white;
-    border-radius: 30px;
-    padding: 15px 50px;
-    font-size: 1em;
-    cursor: pointer;
-    outline: none;
-    transition: background-color 0.3s; /* Smooth transition for background color change */
-  }
-
-.menu-buttons button:hover,
-.menu-buttons button:active,
-.menu-buttons button:focus {
-    background-color: goldenrod; /* Change to orange on hover, focus, or active */
-    outline: none;
-    border: none;
-}
-
-
-  
-  
-  
-  
-  
