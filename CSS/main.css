@@ -515,3 +515,75 @@
     color:goldenrod;
     margin: 50px;
  }
+
+ /* Contact Page */
+  .contact-txt {
+    color: goldenrod;
+    margin-top: 100px;
+    text-align: center;
+  }
+
+  .form img {
+    max-width: 100px;
+  }
+
+.contactus{
+    padding: 10px 20px 10px 10px;
+}
+
+.contactus h3 {
+    margin-top: 5px;
+    padding: 10px 10px 20px 10px;
+    line-height: 20px;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+#yourmessage {
+    width: 100%;
+    line-height: 20px;
+    height: 100px;
+    resize: none;
+    margin-top: 5px;
+}
+
+.button {
+    background-color: goldenrod;
+    color: white;
+    padding:5px;
+    border: none;
+    font-size: 1.5rem; 
+}
+
+/* anmation for two items */
+@keyframes jump {
+    0%, 100% {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(-10px);
+      }
+  }
+  
+  .mailbox {
+    animation: jump 0.5s infinite; 
+  }
+
+  @keyframes slideInFromRight {
+    from {
+      transform: translateX(100%); 
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+
+  .logo {
+    animation: slideInFromRight 2s ease-out forwards;
+  }
+
