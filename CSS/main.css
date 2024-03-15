@@ -212,7 +212,7 @@
     background-position: center top;
     padding: 120px 0;
  }
- 
+
  .dow-txt{
     color: #fff;
  }
@@ -531,7 +531,11 @@
   }
 
 .contactus{
-    padding: 10px 20px 10px 10px;
+   display:flex;
+   justify-content: center;
+   max-width: 100%;
+   align-items: center;
+   padding: 50px;
 }
 
 .contactus h3 {
