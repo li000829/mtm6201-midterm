@@ -207,9 +207,12 @@
  }
 
  #download{
-    background-image: url('../images/footer-banner.png') no-repeat center top;
+    background-image: url('../images/footer-banner.png');
+    background-repeat: no-repeat;
+    background-position: center top;
     padding: 120px 0;
  }
+ 
  .dow-txt{
     color: #fff;
  }
