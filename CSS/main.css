@@ -587,3 +587,16 @@ textarea {
     animation: slideInFromRight 2s ease-out forwards;
   }
 
+  /* Add back to top link*/
+  #top {
+    position:fixed;
+    bottom: 20px;
+    right: 30px; 
+    padding: 10px 15px; 
+    background-color: #f5f5f5; 
+    color: #000; 
+    text-decoration:underline;
+    border-radius: 5px; 
+    font-size: 8px;
+  }
+
