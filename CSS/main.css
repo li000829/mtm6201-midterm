@@ -533,8 +533,7 @@
 .contactus{
    display:flex;
    justify-content: center;
-   width: 50%;
-   align-items: center;
+   max-width: 100%;
    padding: 50px;
 }
 
