@@ -71,7 +71,7 @@
  }
 
  #app{
-    background: url('/images/header-banner.png') no-repeat center top;
+    background: url('../images/header-banner.png') no-repeat center top;
     padding-bottom: 150px;
  }
 
@@ -207,7 +207,7 @@
  }
 
  #download{
-    background-image: url('/images/footer-banner.png') no-repeat center top;
+    background-image: url('../images/footer-banner.png') no-repeat center top;
     padding: 120px 0;
  }
  .dow-txt{
