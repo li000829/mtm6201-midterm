@@ -1,0 +1,39 @@
+
+main .main {
+  padding: 20px;
+  padding-top: 116px;
+}
+main .main .t {
+  color: goldenrod;
+  display: flex;
+}
+main .main .t img {
+  width: 30px;
+  margin-left: 20px;
+}
+main .main .foot_con {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+}
+main .main .foot_con .foot_item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main .main .foot_con .foot_item img {
+  width: 100%;
+  height: 360px;
+}
+main .main .foot_con .foot_item button {
+  padding: 10px 40px;
+  background-color: goldenrod;
+  color: #fff;
+  border: unset;
+  border-radius: 20px;
+  font-size: 20px;
+}
+
+
+
+
